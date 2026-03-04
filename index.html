@@ -120,7 +120,8 @@
                 window.location.href = upiUrl;
 
                 setTimeout(() => {
-                    window.open(`https://wa.me/917383455094?text=${encodeURIComponent(msg)}`, '_blank');
+                    // UPDATED WHATSAPP NUMBER HERE
+                    window.open(`https://wa.me/919601650687?text=${encodeURIComponent(msg)}`, '_blank');
                     setCart([]);
                     setPage('home');
                 }, 2000);
@@ -189,7 +190,7 @@
                             <div className="flex justify-between items-end">
                                 <h2 className="text-5xl font-black text-slate-900 italic">Your Cart</h2>
                                 {cart.length > 0 && (
-                                    <button onClick={clearCart} className="text-rose-400 font-bold text-sm uppercase tracking-widest hover:text-rose-600 transition-colors">
+                                    <button onClick={clearCart} className="text-rose-400 font-bold text-sm uppercase tracking-widest hover:text-rose-600">
                                         Clear All
                                     </button>
                                 )}
